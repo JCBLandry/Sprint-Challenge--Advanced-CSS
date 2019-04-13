@@ -151,6 +151,12 @@ h2 {
 h3 {
   font-size: 2.8rem;
 }
+h1 {
+  font-size: 5.2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
 p {
   font-size: 1.6rem;
   line-height: 1.4;
@@ -160,10 +166,29 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+a {
+  font-size: 1.6rem;
+}
 nav a {
   text-decoration: none;
   color: #23293B;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: #454A59;
+}
+.flexnav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.containernav {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F6F6F6;
+  margin-bottom: 10px;
+}
+.aroundcontainer {
+  background-color: #F6F6F6;
+  width: 100%;
+  margin: 0 auto;
 }
 footer {
   color: #22283B;
@@ -225,4 +250,10 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.headimg {
+  margin: 20px;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
 }
