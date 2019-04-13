@@ -183,7 +183,7 @@ nav a {
   width: 100%;
   margin: 0 auto;
   background-color: #F6F6F6;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 .aroundcontainer {
   background-color: #F6F6F6;
@@ -252,8 +252,23 @@ footer {
   border-radius: 10px;
 }
 .headimg {
-  margin: 20px;
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: #22283A;
+  color: #F1F1F1;
+  border: 0px solid black;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  width: max-content;
+}
+.btn:hover {
+  background-color: #F1F1F1;
+  color: #22283A;
+  border: 1px solid black;
 }
