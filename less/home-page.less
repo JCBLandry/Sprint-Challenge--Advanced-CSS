@@ -98,7 +98,37 @@ border: 1px solid black;
 }
 
 @media @phone{
-  body{
-  background-color: blue;
+  .home .space-images img{
+    width: 500px;
+  }
+  .sky{
+    display: none;
+  }
+  .launch{
+    display: none;
+  }
+  .home .walk{
+    padding:15px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .home .walk .walk-text{
+    width: 100%;
+    margin: 0 auto;
+  };
+
+  .home .walk .walk-img{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .btn{
+    .btnmix(@btn-bg-color, @sea-shell);
+    border: 0px solid black;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
   }
 }

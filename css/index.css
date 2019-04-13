@@ -272,3 +272,38 @@ footer {
   color: #22283A;
   border: 1px solid black;
 }
+@media (max-width: 500px) {
+  .home .space-images img {
+    width: 500px;
+  }
+  .sky {
+    display: none;
+  }
+  .launch {
+    display: none;
+  }
+  .home .walk {
+    padding: 15px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .home .walk .walk-text {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .home .walk .walk-img {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .btn {
+    background-color: #22283A;
+    color: #F1F1F1;
+    border: 0px solid black;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+  }
+}
